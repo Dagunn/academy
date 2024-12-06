@@ -1,0 +1,75 @@
+.authors {
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__slider-card {
+    position: relative;
+    width: 303px;
+
+    &-info {
+      position: absolute;
+      bottom: 11px;
+      max-width: 282px;
+      min-height: 144px;
+      margin: 0 auto;
+      right: 0;
+      left: 0;
+      background-color: white;
+      padding: 10px 14px;
+      border-radius: 18px;
+    }
+
+    &-name {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    &-text {
+      font-size: 14px;
+    }
+  }
+
+  &__slider {
+    .slick-slide {
+      width: 303px !important;
+      margin-right: 30px;
+    }
+
+    .slick-list {
+      margin-right: -30px;
+    }
+  }
+
+  &__slider-card {
+    position: relative;
+    width: 303px;
+    flex-shrink: 0;
+
+    &-info {
+      position: absolute;
+      bottom: 11px;
+      max-width: 282px;
+      margin: 0 auto;
+      right: 0;
+      left: 0;
+      background-color: white;
+      padding: 10px 14px;
+      border-radius: 18px;
+    }
+
+    &-name {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    &-text {
+      font-size: 14px;
+    }
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+}

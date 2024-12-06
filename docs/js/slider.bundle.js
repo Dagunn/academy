@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".authors__slider").slick({slidesToShow:3,slidesToScroll:1,infinite:!0,arrows:!1,variableWidth:!0})});

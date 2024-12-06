@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+	<link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+
+
+	<title>TopAcademy</title>
+
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="/" class="header__logo-link">
+                <img class="header__logo" src="./img/logo.svg" alt="logo" width="172" height="24">
+            </a>
+
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#direction">Направления обучения</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#authors">Авторы программ</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#reviews">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="header__burger" aria-label="Toggle menu">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+
+            <nav class="header__menu-mobile">
+                <ul>
+                    <li>
+                        <a href="#direction">Направления обучения</a>
+                    </li>
+                    <li>
+                        <a href="#authors">Авторы программ</a>
+                    </li>
+                    <li>
+                        <a href="#reviews">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+	<main>
+		<section class="more">
+  <div class="container">
+    <div class="more__inner">
+      <div class="more__text">
+        <h1 class="more__title">Осво<span class="more__title-wrap">и
+            <img class="more__title-decor" src="./img/lines.svg" alt="">
+          </span>те больше
+
+
+        </h1>
+        <p class="more__subtitle">C доступом к онлайн-курсам!</p>
+
+        <div class="more__link">
+          <a href="#" class="more__link-btn">
+            Узнать подробнее
+
+          </a>
+
+          <a href="#" class="more__link-arrow">
+            <svg width="37" height="39" viewBox="0 0 37 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9.5071 30.287C9.96985 30.6753 10.5679 30.8638 11.1697 30.8112C11.7715 30.7585 12.3277 30.469 12.716 30.0062L24.3116 16.1872L25.049 24.6159C25.1211 25.2017 25.4178 25.7366 25.8766 26.1079C26.3353 26.4792 26.9202 26.658 27.5082 26.6065C28.0961 26.5551 28.6411 26.2775 29.0284 25.8321C29.4156 25.3868 29.6149 24.8085 29.5843 24.2191L28.3677 10.3138C28.3147 9.71257 28.0253 9.15692 27.5629 8.76893C27.1005 8.38095 26.503 8.19236 25.9017 8.24459L11.9964 9.46115C11.6909 9.47704 11.3918 9.5543 11.1168 9.68831C10.8419 9.82232 10.5967 10.0103 10.396 10.2411C10.1953 10.472 10.0431 10.7408 9.94856 11.0317C9.85401 11.3226 9.81902 11.6296 9.84568 11.9343C9.87234 12.239 9.9601 12.5352 10.1037 12.8053C10.2474 13.0754 10.4439 13.3137 10.6816 13.5062C10.9194 13.6986 11.1935 13.8412 11.4875 13.9254C11.7816 14.0097 12.0896 14.0338 12.3932 13.9964L20.8219 13.259L9.22635 27.0781C8.41818 28.0412 8.54395 29.4788 9.5071 30.287Z"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+
+
+      </div>
+
+      <div class="more__img">
+        <img src="./img/more-img.jpeg" alt="more-img" width="741" height="491">
+        <img class="more__img-heart" src="./img/heart.svg" alt="heart" height="70" width="70">
+      </div>
+    </div>
+  </div>
+</section>
+		<section class="direction" id="direction">
+  <div class="container">
+    <div class="direction__inner">
+      <h2 class="direction__title">Направления обучения</h2>
+
+      <div class="direction__tabs">
+        <button class="direction__tabs-button direction__tabs-button--active" data-tab="all">
+          Все
+        </button>
+        <button class="direction__tabs-button" data-tab="beauty">Красота</button>
+        <button class="direction__tabs-button" data-tab="food">Питание</button>
+        <button class="direction__tabs-button" data-tab="style">Стиль</button>
+        <button class="direction__tabs-button" data-tab="self-development">Саморазвитие</button>
+        <button class="direction__tabs-button" data-tab="health">Здоровье</button>
+      </div>
+
+
+    </div>
+
+    <div class="direction__tabs-content">
+
+
+      <div class="direction__tabs-panel direction__tabs-panel--active" data-tab-content="all">
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-1.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Индивидуальная программа похудения</h3>
+            <p class="tab-item__text medium-font">Избавься от лишних кг и стань стройной! </p>
+            <a href="#" target="" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-2.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">STOP Акне</h3>
+            <p class="tab-item__text medium-font">Руководство по борьбе с акне: возвращаем здоровье, гладкость и сияние
+              вашему лицу
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-3.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <div class="tab-item__body">
+              <h3 class="tab-item__title">Королева стиля</h3>
+              <p class="tab-item__text medium-font">Научись одеваться бюджетно и модно </p>
+
+            </div>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-4.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Эликсир молодости </h3>
+            <p class="tab-item__text medium-font">Секреты здоровой и сияющей кожи лица, без морщин, прыщей и отеков.!
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-5.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Здоровая спина</h3>
+            <p class="tab-item__text">Комплекс упражнений от болей в спине, шее и пояснице </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-6.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Медитация. Мечты исполняются</h3>
+            <p class="tab-item__text">Направленные медитации и дыхательные техники, релаксационные практики, техники...
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-7.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Женщина на миллион</h3>
+            <p class="tab-item__text">Измени свою жизнь и стань той, которой оборачиваются вслед! </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-8.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Искусство Таро</h3>
+            <p class="tab-item__text">Измените свою жизнь к лучшему с помощью карт Таро </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+      <div class="direction__tabs-panel" data-tab-content="beauty">
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-1.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Индивидуальная программа похудения</h3>
+            <p class="tab-item__text medium-font">Избавься от лишних кг и стань стройной! </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-2.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">STOP Акне</h3>
+            <p class="tab-item__text medium-font">Руководство по борьбе с акне: возвращаем здоровье, гладкость и сияние
+              вашему лицу
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-3.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <div class="tab-item__body">
+              <h3 class="tab-item__title">Королева стиля</h3>
+              <p class="tab-item__text medium-font">Научись одеваться бюджетно и модно </p>
+
+            </div>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-4.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Эликсир молодости </h3>
+            <p class="tab-item__text medium-font">Секреты здоровой и сияющей кожи лица, без морщин, прыщей и отеков.!
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="direction__tabs-panel" data-tab-content="food">
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-1.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Индивидуальная программа похудения</h3>
+            <p class="tab-item__text medium-font">Избавься от лишних кг и стань стройной! </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-2.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">STOP Акне</h3>
+            <p class="tab-item__text medium-font">Руководство по борьбе с акне: возвращаем здоровье, гладкость и сияние
+              вашему лицу
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="direction__tabs-panel" data-tab-content="style">
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-3.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <div class="tab-item__body">
+              <h3 class="tab-item__title">Королева стиля</h3>
+              <p class="tab-item__text medium-font">Научись одеваться бюджетно и модно </p>
+
+            </div>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-7.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Женщина на миллион</h3>
+            <p class="tab-item__text">Измени свою жизнь и стань той, которой оборачиваются вслед! </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="direction__tabs-panel" data-tab-content="self-development">
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-6.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Медитация. Мечты исполняются</h3>
+            <p class="tab-item__text">Направленные медитации и дыхательные техники, релаксационные практики, техники...
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-8.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Искусство Таро</h3>
+            <p class="tab-item__text">Измените свою жизнь к лучшему с помощью карт Таро </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-2.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">STOP Акне</h3>
+            <p class="tab-item__text medium-font">Руководство по борьбе с акне: возвращаем здоровье, гладкость и сияние
+              вашему лицу
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-5.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Здоровая спина</h3>
+            <p class="tab-item__text">Комплекс упражнений от болей в спине, шее и пояснице </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="direction__tabs-panel" data-tab-content="health">
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-6.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Медитация. Мечты исполняются</h3>
+            <p class="tab-item__text">Направленные медитации и дыхательные техники, релаксационные практики, техники...
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-1.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Индивидуальная программа похудения</h3>
+            <p class="tab-item__text medium-font">Избавься от лишних кг и стань стройной! </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-2.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">STOP Акне</h3>
+            <p class="tab-item__text medium-font">Руководство по борьбе с акне: возвращаем здоровье, гладкость и сияние
+              вашему лицу
+            </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+
+
+        <div class="direction__tabs-panel-item tab-item">
+          <img src="./img/all-item-5.png" alt="item-img">
+
+          <div class="tab-item__wrap">
+            <div class="tab-item__lessons">
+              <div class="tab-item__lessons-desc">
+                <span>С нуля</span>
+                <span>•</span>
+                <span>30 дней</span>
+              </div>
+
+              <div class="tab-item__rating">
+                <img src="./img/rating-star.svg" alt="rating-star" width="12" height="12">
+                <span>5.0</span>
+              </div>
+            </div>
+
+            <h3 class="tab-item__title">Здоровая спина</h3>
+            <p class="tab-item__text">Комплекс упражнений от болей в спине, шее и пояснице </p>
+            <a href="#" class="tab-item__link">Подробнее</a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+</section>
+		<section class="live">
+  <div class="container">
+    <div class="live__top">
+      <h2 class="live__title">Живите ярко</h2>
+      <p class="live__interests"><span class="bold-font">Найдите новое увлечение</span> и уделяй время тому, что
+        приносит
+        радость и
+        вдохновение</p>
+    </div>
+
+    <div class="live__body">
+      <img class="live__body-img hide-mob" src="./img/live-img.jpg" alt="section-img" width="554" height="534">
+      <img class="live__body-img show-mob" src="./img/live-img-mob.jpg" alt="section-img" width="332" height="426">
+
+      <div>
+
+        <div class="live__body-box">
+          <h4 class="live__body-box-title">Изучайте новые профессии</h4>
+
+
+
+          <p class="live__body-box-desc">Курс <span class="bold-font">“Искусство Таро”</span> подойдет тем, кто хочет
+            углубиться в саморазвитие и
+            помогать другим. <span class="light-font">Подходит как новичкам, так и опытным девушкам.</span></p>
+        </div>
+
+        <div class="live__body-box">
+          <h4 class="live__body-box-title">Достигайте любые цели</h4>
+
+
+
+          <p class="live__body-box-desc">Достигните тело своей мечты, сохраните результаты и улучшите самочувствие.
+            <span class="light-font">Подходит как новичкам, так и опытным девушкам.</span>
+          </p>
+        </div>
+
+        <div class="live__body-box">
+          <h4 class="live__body-box-title">Обучайтесь в любое время</h4>
+
+
+
+          <p class="live__body-box-desc">Вы можете изучать выбранные курсы в комфортном темпе, возвращаясь к урокам,
+            когда вам удобно. <span class="light-font">Однако старайтесь не откладывать занятия на долгое время.</span>
+          </p>
+        </div>
+
+        <div class="live__body-box">
+          <h4 class="live__body-box-title">Исследуйте разные направления</h4>
+
+
+
+          <p class="live__body-box-desc">Одновременно изучайте несколько курсов, найдите как новую профессию так и
+            увлекательное хобби. <span class="bold-font"> Платформа позволит Вам заниматься любимыми делами
+              легко.</span> </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="live__bottom">
+
+      <p class="live__bottom-text">Вас ждут невероятные эмоции и множество новых открытий в личном кабинете</p>
+
+
+
+
+      <img src="./img/live-bottom.jpeg" alt="img" width="646" height="167">
+    </div>
+  </div>
+</section>
+		<section class="authors" id="authors">
+  <div class="container">
+    <h2 class="authors__title">Авторы программ</h2>
+
+    <div class="authors__slider">
+
+      <div class="authors__slider-card">
+        <img src="./img/slider-1.jpg" alt="author" width="303" height="406">
+        <div class="authors__slider-card-info">
+          <h4 class="authors__slider-card-name">Людмила Eгорова</h4>
+          <p class="authors__slider-card-text">Сертифицированный профессиональный тренер и диетолог. Специализируется на
+            создании индивидуальных программ
+            для похудения и набора массы.</p>
+        </div>
+      </div>
+
+
+      <div class="authors__slider-card">
+        <img src="./img/slider-2.jpg" alt="author" width="303" height="406">
+        <div class="authors__slider-card-info">
+          <h4 class="authors__slider-card-name">Анна Григорьевна</h4>
+          <p class="authors__slider-card-text">Практикующий мастер Таро с более чем 10-летним опытом. Ведет курсы по
+            обучению интерпретации карт и
+            интуитивным практикам.</p>
+        </div>
+      </div>
+
+
+      <div class="authors__slider-card">
+
+        <img src="./img/slider-3.jpg" alt="author" width="303" height="406">
+        <div class="authors__slider-card-info">
+          <h4 class="authors__slider-card-name">Ольга Смирнова</h4>
+          <p class="authors__slider-card-text">Лицензированный косметолог-дерматолог. Специализируется на лечении акне и
+            постакне. Автор уникальной
+            методики ухода за кожей в домашних условиях.</p>
+        </div>
+      </div>
+
+
+
+      <div class="authors__slider-card">
+
+        <img src="./img/slider-4.jpg" alt="author" width="303" height="406">
+        <div class="authors__slider-card-info">
+          <h4 class="authors__slider-card-name">Татьяна Королёва</h4>
+          <p class="authors__slider-card-text">Профессиональный инструктор по йоге. Разрабатывает авторские программы
+            для расслабления, восстановления
+            тела и улучшения осанки.</p>
+        </div>
+      </div>
+
+      <div class="authors__slider-card">
+        <img src="./img/slider-5.jpg" alt="author" width="303" height="406">
+        <div class="authors__slider-card-info">
+          <h4 class="authors__slider-card-name">Екатерина Власова</h4>
+          <p class="authors__slider-card-text">Имидж-стилист. Помогает создавать гармоничные образы и подбирать
+            гардероб, учитывая особенности фигуры и
+            личности.</p>
+        </div>
+
+      </div>
+
+
+
+      <div class="authors__slider-card">
+
+        <img src="./img/slider-6.jpg" alt="author" width="303" height="406">
+        <div class="authors__slider-card-info">
+          <h4 class="authors__slider-card-name">Наталья Орлова</h4>
+          <p class="authors__slider-card-text">Энерготерапевт и коуч по саморазвитию. Автор книг и курсов, направленных
+            на гармонизацию внутреннего
+            состояния.</p>
+        </div>
+      </div>
+
+      <div class="authors__slider-card">
+
+        <img src="./img/slider-7.jpg" alt="author" width="303" height="406">
+        <div class="authors__slider-card-info">
+          <h4 class="authors__slider-card-name">Светлана Сергееваа</h4>
+          <p class="authors__slider-card-text">Лайфстайл-стилист. Помогает создать уникальный стиль жизни через внешний
+            вид, пространство и привычки.
+          </p>
+        </div>
+      </div>
+
+      <div class="authors__slider-card">
+
+        <img src="./img/slider-8.jpg" alt="author" width="303" height="406">
+        <div class="authors__slider-card-info">
+          <h4 class="authors__slider-card-name">Александра Миронова</h4>
+          <p class="authors__slider-card-text">Эксперт по растяжке и мобилизации суставов. Разрабатывает программы,
+            повышающие гибкость и снижающие риск
+            травм.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</section>
+		<section class="reviews" id="reviews">
+  <div class="container">
+    <h2 class="reviews__title">Отзывы наших учениц</h2>
+
+    <div class="reviews__inner">
+      <div class="reviews__box">
+        <div class="reviews__box-top">
+          <img src="./img/ava-1.png" alt="avatar" width="100" height="100">
+
+          <div class="reviews__box-name">
+            <p class="reviews__box-course">Элексир молодости</p>
+            <h4 class="reviews__box-person">Евгения Перичная, 38</h4>
+          </div>
+        </div>
+
+        <div class="reviews__box-body">
+          <p class="reviews__box-desc">
+            Я прошла курс 'Элексир молодости', и это был один из лучших опытов в моей жизни! Мне 38 лет, и я давно
+            искала способ улучшить своё самочувствие, внешность и энергию. После курса я заметила, что кожа стала более
+            упругой и сияющей, а я сама чувствую себя лет на 10 моложе! Особую благодарность хочу выразить тренерам за
+            профессионализм и поддержку на каждом этапе. Этот курс — настоящее открытие для женщин, которые хотят
+            расцвести и почувствовать себя великолепно в любом возрасте!
+          </p>
+
+          <div class="reviews__box-stars">
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__box">
+        <div class="reviews__box-top">
+          <img src="./img/ava-2.png" alt="avatar" width="100" height="100">
+
+          <div class="reviews__box-name">
+            <p class="reviews__box-course">Индивидуальная программа <br> похудения</p>
+            <h4 class="reviews__box-person">Мария Полшкова, 24</h4>
+          </div>
+        </div>
+
+        <div class="reviews__box-body">
+          <p class="reviews__box-desc">
+            Курс 'Индивидуальная программа похудения', стал настоящим поворотным моментом для меня. Наконец-то я поняла,
+            что важно не просто сбросить вес, а выстроить здоровый и комфортный для себя образ жизни. Благодаря
+            индивидуальному подходу, я увидела результаты уже через несколько недель — минус 6 кг без стресса и жестких
+            ограничений! Огромное спасибо за мотивацию, поддержку и полезные советы
+          </p>
+
+          <div class="reviews__box-stars">
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__box">
+        <div class="reviews__box-top">
+          <img src="./img/ava-3.png" alt="avatar" width="100" height="100">
+
+          <div class="reviews__box-name">
+            <p class="reviews__box-course">Искусство таро</p>
+            <h4 class="reviews__box-person">Амелия Гаспарян, 28</h4>
+          </div>
+        </div>
+
+        <div class="reviews__box-body">
+          <p class="reviews__box-desc">
+            Честно говоря, в декрете мне было скучновато, а вот подруга активно увлекалась Таро. Сначала я совершенно не
+            понимала, чем она занимается и зачем это нужно, и даже разбираться не хотелось. Но она буквально настояла,
+            чтобы я посмотрела первую лекцию курса. И знаете, меня затянуло! Теперь я помогаю людям находить решения,
+            улучшать взаимоотношения и работать над собой, и это стало моим основным занятием. Возвращаться на прежнюю
+            работу после декрета я уже не планирую.
+          </p>
+
+          <div class="reviews__box-stars">
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__box">
+        <div class="reviews__box-top">
+          <img src="./img/ava-4.png" alt="avatar" width="100" height="100">
+
+          <div class="reviews__box-name">
+            <p class="reviews__box-course">Королева стиля</p>
+            <h4 class="reviews__box-person">Вероника Гурьянова, 22</h4>
+          </div>
+        </div>
+
+        <div class="reviews__box-body">
+          <p class="reviews__box-desc">
+            Я искала курс, чтобы самой себе подбирать одежду, так как чувствовала, что не выгляжу так, как хотелось бы.
+            Курс у блогера-стилиста был очень дорогим и я решилась на курс “Королева стиля”. Информация, которую я
+            узнала изменила полностью мой гардероб, теперь я не хожу по магазинам бесцельно, я знаю какую вещь нужно
+            купить, чтобы она подошла мне и ко всему, что у меня есть. Для меня было открытием, что “база” в гардеробе -
+            это залог успеха. Точно рекомендую этот курс.
+          </p>
+
+          <div class="reviews__box-stars">
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.92373 17.8699L7.11825 21.6751L5.1455 27.8029C4.8267 28.7533 4.82266 29.7816 5.13399 30.7345C5.44532 31.6874 6.05534 32.5139 6.87312 33.0907C7.67688 33.686 8.65092 34.005 9.65008 33.9999C10.6492 33.9949 11.62 33.6663 12.4178 33.0629L17.4971 29.3133L22.5778 33.0585C23.3801 33.6504 24.3489 33.9719 25.3449 33.9768C26.3408 33.9817 27.3127 33.6696 28.1207 33.0856C28.9287 32.5015 29.5313 31.6755 29.8418 30.7263C30.1523 29.7771 30.1547 28.7536 29.8487 27.8029L27.8759 21.6751L33.0704 17.8699C33.8717 17.2823 34.4673 16.4557 34.7723 15.5083C35.0772 14.5608 35.0759 13.541 34.7684 12.5944C34.4609 11.6477 33.8631 10.8228 33.0602 10.2373C32.2574 9.6519 31.2907 9.3359 30.2981 9.33448H23.9173L21.981 3.28128C21.6765 2.32845 21.0782 1.49724 20.2723 0.90751C19.4664 0.317778 18.4946 0 17.4971 0C16.4995 0 15.5277 0.317778 14.7219 0.90751C13.916 1.49724 13.3176 2.32845 13.0132 3.28128L11.0769 9.33448H4.70192C3.70934 9.3359 2.74258 9.6519 1.93975 10.2373C1.13692 10.8228 0.53907 11.6477 0.231602 12.5944C-0.0758664 13.541 -0.0772273 14.5608 0.227713 15.5083C0.532654 16.4557 1.1283 17.2823 1.92957 17.8699H1.92373Z"
+                fill="#CBF922" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+		<section class="support">
+  <div class="container">
+    <div class="support__box">
+      <div class="support__bubble">
+        <p class="support__bubble-text">
+          Если возникли трудности с обучением, не переживай — у тебя есть доступ к службе поддержки, готовой помочь с
+          любым вопросом в любое время дня и ночи
+        </p>
+      </div>
+      <img class="support__img" src="./img/support-img.png" alt="support-img" width="409" height="461">
+
+    </div>
+  </div>
+</section>
+	</main>
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <ul class="footer__col-list">
+          <li class="footer__col-list-item">
+            <a href="#" class="footer__col-list-link">О нас</a>
+          </li>
+
+          <li class="footer__col-list-item">
+            <a href="#" class="footer__col-list-link">Отмена подписки</a>
+          </li>
+
+          <li class="footer__col-list-item">
+            <a href="#" class="footer__col-list-link">Тарифы</a>
+          </li>
+
+          <li class="footer__col-list-item">
+            <a href="#" class="footer__col-list-link">Чат с поддержкой</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <ul class="footer__col-list">
+          <li class="footer__col-list-item">
+            <a href="#" class="footer__col-list-link">Политика конфиденциальности</a>
+          </li>
+
+          <li class="footer__col-list-item">
+            <a href="#" class="footer__col-list-link">Правила сервиса</a>
+          </li>
+
+          <li class="footer__col-list-item">
+            <a href="#" class="footer__col-list-link">Договор-оферта</a>
+          </li>
+
+
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <img src="./img/pay-cards.png" alt="pay-card" width="170" height="88">
+      </div>
+
+
+      <div class="footer__col">
+        <ul class="footer__col-list">
+          <li class="footer__col-list-item">
+            ООО "Ромашка"
+          </li>
+
+          <li class="footer__col-list-item">
+            ИНН: 000000000
+          </li>
+
+          <li class="footer__col-list-item">
+            ОГРН: 00000000000
+          </li>
+
+
+          <li class="footer__col-list-item">
+            Контакты: <a href="#" class="footer__col-list-link">
+              support@website.com
+            </a>
+          </li>
+
+          <li class="footer__col-list-item">
+
+            Этот веб-сайт использует cookies
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="footer__rights">
+    © domein 2024 Все права защищены
+  </div>
+</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+	<!-- <script src="./js/slider.js"></script> -->
+	<script src="./js/index.bundle.js"></script>
+	<script src="./js/slider.bundle.js"></script>
+
+
+</body>
+
+</html>
